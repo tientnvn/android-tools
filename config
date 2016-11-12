@@ -1,0 +1,56 @@
+# Report folder name
+REPORT_FOLDER_NAME=report
+
+# Project folder name
+PROJECT_FOLDER_NAME=projects
+
+# Default example project name
+DEFAULT_EXAMPLE_PROJECT_NAME=example
+
+# App folder name
+APP_FOLDER_NAME=app
+
+# Source folder name 
+SOURCE_FOLDER_NAME=src
+
+# Main folder name 
+MAIN_FOLDER_NAME=main
+
+# Resource folder name
+RESOURCE_FOLDER_NAME=res
+
+# Drawable folder name
+DRAWABLE_FOLDER_NAME=drawable
+
+# Drawable HDPI folder name
+DRAWABLE_HDPI_FOLDER_NAME=drawable-hdpi
+
+# Drawable LDPI folder name
+DRAWABLE_LDPI_FOLDER_NAME=drawable-ldpi
+
+# Drawable MDPI folder name
+DRAWABLE_MDPI_FOLDER_NAME=drawable-mdpi
+
+# Drawable XHDPI folder name
+DRAWABLE_XHDPI_FOLDER_NAME=drawable-xhdpi
+
+# Drawable XXHDPI folder name
+DRAWABLE_XXHDPI_FOLDER_NAME=drawable-xxhdpi
+
+# Layout folder name
+LAYOUT_FOLDER_NAME=layout
+
+# Menu folder name
+MENU_FOLDER_NAME=menu
+
+# Layout folder name
+VALUES_FOLDER_NAME=values
+
+# Values vi folder name
+VALUES_VI_FOLDER_NAME=values-vi
+
+# Animation folder name
+ANIM_FOLDER_NAME=anim
+
+# Animation folder name
+DRAWABLE_NODPI_FOLDER_NAME=drawable-nodpi
