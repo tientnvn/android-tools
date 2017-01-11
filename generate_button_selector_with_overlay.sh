@@ -7,12 +7,7 @@ PRESSED=$BUTTON_NAME\_with_overlay
 NORMAL=$BUTTON_NAME
 FILE=$DRAWABLE_FOLDER_PATH/selector_$BUTTON_NAME\.xml
 
-echo "<?xml version=\"1.0\" encoding=\"utf-8\"?>" >> $FILE
-echo "<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">" >> $FILE
-echo "    <item android:drawable=\"@drawable/$PRESSED\" android:state_pressed=\"true\"></item>" >> $FILE
-echo "    <item android:drawable=\"@drawable/$NORMAL\"></item>" >> $FILE
-echo "</selector>" >> $FILE
-
+sed -e "s/\${PRESSED}/${PRESSED}/" -e "s/\${NORMAL}/${NORMAL}/" button_selector_with_overlay.template > ${FILE}
 }
 
 checkResource() {
